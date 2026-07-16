@@ -1,0 +1,30 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:  #e305af ;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+}
+nav>ul{
+    text-decoration:none ;
+    list-style: none;
+
+}
+main{
+    width :80%;
+    margin: 30px auto;
+
+}
+button[type="SUBMIT"]{
+    background-color: #ca1c2bc2;
+}
+
+    button[type="DELETE"]{
+    background-color: #220a9cc2;
+}
